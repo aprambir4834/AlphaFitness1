@@ -96,7 +96,7 @@
   --border-color: #E3E3E3;
   --title-font: "Kanit", sans-serif;
   --body-font: "Kumbh Sans", sans-serif;
-  --icon-font: "Font Awesome 6 Pro";
+  --icon-font: "Font Awesome 6 Free";
   --main-container: 1220px;
   --container-gutters: 24px;
   --section-space: 120px;
@@ -2385,8 +2385,8 @@ textarea.is-invalid {
   transition: all 300ms linear;
 }
 .scroll-top:after {
-  content: "\f062";
-  font-family: var(--icon-font);
+  content: "↑";
+  font-family: inherit;
   position: absolute;
   text-align: center;
   line-height: 50px;
