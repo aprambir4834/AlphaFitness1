@@ -96,7 +96,11 @@
   --border-color: #E3E3E3;
   --title-font: "Kanit", sans-serif;
   --body-font: "Kumbh Sans", sans-serif;
+<<<<<<< HEAD
   --icon-font: "Font Awesome 6 Free";
+=======
+  --icon-font: "Font Awesome 6 Pro";
+>>>>>>> 7a59308b6726b95b685f655c93bd2176a041a94b
   --main-container: 1220px;
   --container-gutters: 24px;
   --section-space: 120px;
