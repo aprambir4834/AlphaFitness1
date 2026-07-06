@@ -346,11 +346,7 @@ Hero Area
                             <h1 class="hero-title text-white">Stay Strong</h1>
                             <span class="hero-subtitle fw-semibold">AT ALPHAFITNESS</span>
 
-                            <div class="btn-group">
-                                <a href="contact.html" class="btn style-r0 style2">
-                                    Get Started
-                                </a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -433,7 +429,7 @@ Hero Area
                     </div>
                     <div class="col-lg-6 align-self-end">
                         <div class="bmi-calculator-form">
-                            <h4 class="form-title">Book Your Seat:</h4>
+                            <h4 class="form-title">Calculate Your BMI:</h4>
                             <form class="bmi-form" id="form" name="bmiCalc">
                                 <div class="row">
                                     <div class="col-lg-6">
@@ -452,10 +448,14 @@ Hero Area
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control style-border" name="sex" id="sex" placeholder="Sex">
-                                        </div>
-                                    </div>
+    <div class="form-group">
+        <select class="form-control style-border" name="sex" id="sex" required>
+            <option value="" selected disabled hidden>Select Sex</option>
+            <option value="Male" style="color: black;">Male</option>
+            <option value="Female" style="color: black;">Female</option>
+        </select>
+    </div>
+</div>
                                 </div>
                                 <div class="form-group">
                                     <input for="bmi_result" class="form-control style-border" placeholder="Your BMI" type="text" name="bmi" readonly> 
@@ -1833,12 +1833,23 @@ EXPERIENCE ALPHA FITNESS FREE FOR ONE DAY!
             </div>
         </div>
         <div class="copyright-wrap">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-auto align-self-center"><p class="copyright-text text-center">© 2023 <a href="#">Fitmas.</a> All Rights Reserved.</p></div>
-                </div>                
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto align-self-center">
+                <p class="copyright-text text-center">
+                    © 2026 <a href="#">Alpha Fitness</a>. All Rights Reserved. |
+                    Designed, Developed &amp; Maintained by
+                    <a href="https://www.linkedin.com/in/aprambir-singh-b2011a214/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       title="Connect with Aprambir Singh on LinkedIn">
+                        <i class="fab fa-linkedin"></i> Aprambir Singh
+                    </a>
+                </p>
             </div>
         </div>
+    </div>
+</div>
     </footer>
 
     <!--********************************
